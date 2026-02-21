@@ -103,8 +103,7 @@ img {
 	margin-bottom: 16px;
 }
 
-.btn a,
-button a {
+.btn a {
 	display: inline-block;
 	padding: 7px 24px;
 	font-size: 16px;
@@ -116,9 +115,12 @@ button a {
 	border-radius: 50px;
 }
 
-.btn a:hover,
-button a:hover {
+.btn a:hover {
 	opacity: 0.85;
+}
+
+button {
+	cursor: pointer;
 }
 
 .desc {
@@ -528,7 +530,58 @@ button a:hover {
 	margin-top: 48px;
 }
 
+.customers .arrow-icons .icon:last-child {
+	cursor: pointer;
+}
+
 .customers .arrow-icons svg {
 	width: 28px;
 	height: 28px;
+}
+
+/* Documentation  */
+.documentation .section-head .btn {
+	margin-top: 48px;
+	display: flex;
+	gap: 8px;
+	justify-content: center;
+}
+
+.documentation .section-head .btn a:last-child {
+	background: #fff;
+	color: var(--headline);
+	border: 1px solid #08090a2b;
+}
+
+.documentation .section-head .btn a:last-child:hover {
+	background: #F6F6F6;
+}
+
+.documentation .wrapper {
+	display: flex;
+}
+
+.documentation .block {
+	flex: 1;
+	padding: 30px;
+	text-align: center;
+}
+
+.documentation .block .icon {
+	margin-bottom: 32px;
+}
+
+.documentation .block a {
+	margin-top: 32px;
+	display: block;
+	color: var(--brand);
+}
+
+.documentation .block .title {
+	margin-bottom: 8px;
+}
+
+.documentation .block:first-child {
+	border-right: 1px solid #08090a0d;
+
 }
