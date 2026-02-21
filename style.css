@@ -30,7 +30,9 @@ html {
 	scroll-behavior: smooth;
 }
 
-body {}
+body {
+	background-color: #F9F9F9;
+}
 
 a {
 	text-decoration: none;
@@ -61,6 +63,7 @@ img {
 	font-size: 40px;
 	margin-bottom: 44px;
 	font-weight: 600;
+	letter-spacing: -.02em;
 }
 
 .section-head {
@@ -343,6 +346,10 @@ button a:hover {
 	background: #08090a08;
 }
 
+.enterprise .container {
+	padding: 96px 20px;
+}
+
 .enterprise .section-head {
 	margin-left: 0;
 	display: flex;
@@ -408,7 +415,7 @@ button a:hover {
 	margin-bottom: 32px;
 }
 
-.enterprise .wrapper button {
+.wrapper button {
 	color: #fff;
 	background: none;
 	padding: 0;
@@ -422,11 +429,11 @@ button a:hover {
 	font-weight: 500;
 }
 
-.enterprise .wrapper:hover button {
+.wrapper:hover button {
 	gap: 7px;
 }
 
-.enterprise .wrapper button svg {
+.wrapper button svg {
 	width: 10px;
 	height: 10px;
 	transform: rotate(-90deg);
@@ -456,4 +463,72 @@ button a:hover {
 	color: #fffc;
 	font-weight: 500;
 	margin-top: 8px;
+}
+
+.enterprise .logo-container {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	margin-top: 45px;
+}
+
+/* Customers */
+.customers {
+	padding-top: 120px;
+	padding-bottom: 72px;
+	overflow: hidden;
+}
+
+.customers .wrapper {
+	padding-left: 18%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 16px;
+	margin-right: -100px;
+}
+
+.customers .block .thumb {
+	position: relative;
+}
+
+.customers .block img {
+	border-radius: 10px;
+	height: 222px;
+	object-fit: cover;
+}
+
+.customers .block .thumb svg {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.customers .block .desc {
+	margin: 20px 0 24px;
+	font-weight: 400;
+}
+
+
+.customers .block button {
+	color: #08090a80;
+	font-size: 15px;
+	line-height: 1.3;
+	font-weight: 500;
+}
+
+.customers .block:hover button {
+	color: var(--brand);
+}
+
+.customers .arrow-icons {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+	margin-top: 48px;
+}
+
+.customers .arrow-icons svg {
+	width: 28px;
+	height: 28px;
 }
