@@ -1,6 +1,6 @@
 # 🚀 Mintlify Landing Page Project
 
-🔗 **Live Demo:** <https://asifansari84.github.io/cursor-landing-page/>
+🔗 **Live Demo:** <https://asifansari84.github.io/mintlify-landing-page//>
 
 ![Resume Preview](./assets/img/demo-landing-page.png)
 
